@@ -10,9 +10,9 @@ let package = Package(
         .library(name: "PostgresKit", targets: ["PostgresKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/postgres-nio.git", from: "1.4.0"),
-        .package(url: "https://github.com/vapor/sql-kit.git", from: "3.5.0"),
-        .package(url: "https://github.com/vapor/async-kit.git", from: "1.0.0"),
+        .package(url: "https://github.com/0xTim/postgres-nio", from: "1.4.0"),
+        .package(url: "https://github.com/0xTim/sql-kit", from: "3.5.0"),
+        .package(url: "https://github.com/0xTim/async-kit", from: "1.0.0"),
     ],
     targets: [
         .target(name: "PostgresKit", dependencies: [
